@@ -1,0 +1,27 @@
+{
+    foo: 'bar',
+    while: true,
+
+    this: 'is a \
+multi-line string',
+    // this is an inline comment
+    here: 'is another', // inline comment,
+
+    /* this is a block comment
+       that continues on another line */
+
+    hex: 0xDEADbeef,
+    half: .5,
+    delta: +10,
+    num: 100, 
+
+    finally: 'a trailing comma',
+    oh: [
+        "we shouldn't forget",
+        'arrays can have',
+        'trailing commas too',
+    ],
+    "this": "is a key",
+    'is also a key': 'with a string value',
+    key: 'value',
+}

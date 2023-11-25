@@ -1,0 +1,69 @@
+{
+  "name": "json5-for-vscode",
+  "displayName": "JSON5 for VSCode",
+  "description": "This extension extends the JSON5 syntax highlighting for keys and numbers.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:json5"
+  ],
+  "main": "./extension/main.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "JSON5",
+        "uiTheme": "vs-dark",
+        "path": "./themes/json5-color-theme.json"
+      }
+    ],
+    "languages": [
+      {
+        "id": "json5",
+        "aliases": [
+          "JSON5",
+          "json5"
+        ],
+        "extensions": [
+          ".json5"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "json5",
+        "scopeName": "source.json5",
+        "path": "./syntaxes/json5.tmLanguage.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "extension.format-json5",
+        "title": "Format JSON5"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "yarn run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "dependencies": {
+    "prettier": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.84.0",
+    "@types/mocha": "^10.0.3",
+    "@types/node": "18.x",
+    "eslint": "^8.52.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2",
+    "@vscode/test-electron": "^2.3.6"
+  }
+}

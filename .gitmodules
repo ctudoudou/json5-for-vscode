@@ -1,0 +1,3 @@
+[submodule "thirdparty/json5format"]
+	path = thirdparty/json5format
+	url = https://github.com/google/json5format.git

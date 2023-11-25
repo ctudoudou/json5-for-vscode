@@ -1,0 +1,58 @@
+{
+  "name": "json5-color-theme",
+  "colors": {},
+  "tokenColors": [
+    {
+      "scope": "source.json5 constant.language.json5",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "scope": [
+        "source.json5 comment.block.json5",
+        "source.json5 comment.single.json5",
+        "source.json5 comment.block.documentation.json5"
+      ],
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
+      "scope": "source.json5 support.type.property-name.json5",
+      "settings": {
+        "foreground": "#f44343"
+      }
+    },
+    {
+      "scope": "source.json5 invalid.illegal.octal.json5",
+      "settings": {
+        "fontStyle": "italic underline"
+      }
+    },
+    {
+      "scope": "source.json5 constant.numeric.json5",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "scope": "source.json5 meta.structure.dictionary.value.json5",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "scope": "source.json5 meta.structure.array.json5",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "scope": "source.json5 punctuation.separator.comma.json5",
+      "settings": {
+        "foreground": "#ffa600"
+      }
+    }
+  ]
+}
