@@ -4,8 +4,22 @@ Elevate your coding experience with the JSON5 Formatter & Highlighter - the ulti
 
 ## Key Features:
 
-Advanced JSON5 Formatting: Automatically format and beautify your JSON5 files with a single click. Our plugin intelligently handles various JSON5 structures, ensuring your data is organized in a readable and consistent manner.
-Syntax Highlighting: Enjoy crystal-clear visibility with our syntax highlighting feature. It differentiates elements like keys, values, strings, and numbers, making your JSON5 data easy to navigate and understand.
+### Advanced JSON5 Formatting
+
+Automatically format and beautify your JSON5 files with a single click. Our plugin intelligently handles various JSON5 structures, ensuring your data is organized in a readable and consistent manner.
+
+### Syntax Highlighting
+
+Enjoy crystal-clear visibility with our syntax highlighting feature. It differentiates elements like keys, values, strings, and numbers, making your JSON5 data easy to navigate and understand.
+
+before:
+
+![before](./attachments/before.png)
+
+after:
+
+![after](./attachments/after.png)
+
 
 ## Known Issues
 
