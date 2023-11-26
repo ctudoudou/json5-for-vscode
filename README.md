@@ -19,6 +19,10 @@ Syntax Highlighting: Enjoy crystal-clear visibility with our syntax highlighting
 
 Initial release of json5-for-vscode.
 
+### 0.0.2
+
+Update icon and package.
+
 ---
 
 ## For more information

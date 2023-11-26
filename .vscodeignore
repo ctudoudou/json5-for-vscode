@@ -2,3 +2,7 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+thirdparty/**
+examples/**
+test/**
+icon/*.psd

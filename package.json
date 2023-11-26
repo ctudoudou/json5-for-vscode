@@ -2,7 +2,10 @@
   "name": "json5-for-vscode",
   "displayName": "JSON5 for VSCode",
   "description": "The JSON5 Formatter & Highlighter plugin automatically formats and beautifies JSON5 files.",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "repository": "https://github.com/ctudoudou/json5-for-vscode",
+  "icon": "icon/json5-icon.jpg",
+  "publisher": "tudoudou",
   "engines": {
     "vscode": "^1.84.0"
   },
