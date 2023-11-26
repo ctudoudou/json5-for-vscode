@@ -37,6 +37,10 @@ Initial release of json5-for-vscode.
 
 Update icon and package.
 
+### 0.0.3
+
+Update README.
+
 ---
 
 ## For more information
